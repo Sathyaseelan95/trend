@@ -15,5 +15,6 @@ spec:
       containers:
       - name: project2
         image: sathyaseelans/project2:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
